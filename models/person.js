@@ -6,7 +6,7 @@ console.log('connecting to', url)
 
 // connecting to MongoDB
 
-mongoose.connect(url, { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
+mongoose.connect(url, { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true })
     .then(result => {
         console.log('connected to MongoDB')
     })
