@@ -1,4 +1,4 @@
-https://git.heroku.com/stormy-bastion-15659.git
+https://stormy-bastion-15659.herokuapp.com/
 
 <h1>This repository contains a fullstack version of phonebook app done in FullstackOpen</h1>
 
